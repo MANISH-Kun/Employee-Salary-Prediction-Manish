@@ -54,6 +54,7 @@ using a dataset containing attributes such as age, education, occupation, workin
 ✅ **Gradient Boosting** was selected as the final model for deployment.
 
 ---
+watch here:  https://employee-salary-prediction-manish-zeno.streamlit.app/
 
 ## 📁 Project Structure
 employee_salary_prediction/
@@ -90,7 +91,7 @@ venv\Scripts\activate     # On Windows
 # 3. Install dependencies
 pip install -r requirements.txt
 
-4. Run the Streamlit App
+#4. Run the Streamlit App
 streamlit run app.py
 
-The app will launch in your browser at http://localhost:8501.
+#The app will launch in your browser at http://localhost:8501.
