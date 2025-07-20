@@ -1,4 +1,4 @@
-# 💼 Employee Salary Prediction – Manish Kun
+# 💼 Employee Salary Prediction – Manish 
 
 This project predicts whether an individual earns **more than $50K per year** based on demographic and professional attributes using Machine Learning. Built as part of the **AICTE – Edunet Foundation IBM SkillsBuild Internship**, it includes a web interface powered by **Streamlit** for both manual and batch predictions.
 
@@ -89,6 +89,7 @@ cd Employee-Salary-Prediction-Manish
 ### 2. Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate     # On Windows
+source venv/bin/activate  # On Linux or macOS
 
 # 3. Install dependencies
 pip install -r requirements.txt
