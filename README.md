@@ -56,7 +56,9 @@ using a dataset containing attributes such as age, education, occupation, workin
 ---
 watch here:  https://employee-salary-prediction-manish-zeno.streamlit.app/
 
+
 ## 📁 Project Structure
+```
 employee_salary_prediction/
 │
 ├── data/
