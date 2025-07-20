@@ -185,3 +185,42 @@ elif option == "📁 Upload CSV":
         buffer = BytesIO()
         df.to_csv(buffer, index=False)
         st.download_button("📥 Download Full Results", buffer.getvalue(), "salary_predictions.csv", "text/csv")
+
+
+st.markdown("---", unsafe_allow_html=True)
+st.markdown("""
+<style>
+.footer {
+    text-align: center;
+    font-size: 0.95em;
+    color: gray;
+    margin-top: 50px;
+}
+.footer img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.footer a {
+    text-decoration: none;
+    color: #4a4a4a;
+    margin: 0 12px;
+}
+.footer a:hover {
+    color: #1f77b4;
+}
+</style>
+
+<div class="footer">
+    Made by <b>Manish </b><br><br>
+    <a href="https://github.com/MANISH-Kun" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="filter: invert(100%);" alt="GitHub icon">
+        GitHub
+    </a>
+    |
+    <a href="https://www.linkedin.com/in/manish-kun/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon">
+        LinkedIn
+    </a>
+</div>
+""", unsafe_allow_html=True)
