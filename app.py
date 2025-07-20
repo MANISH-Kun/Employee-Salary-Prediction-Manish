@@ -12,7 +12,7 @@ scaler = joblib.load("notebook/models/scaler.pkl")
 feature_columns = joblib.load("notebook/models/feature_columns.pkl")
 
 # Page config
-st.set_page_config(page_title="💼 Salary Prediction App", layout="wide", page_icon="💼")
+st.set_page_config(page_title="Employee Salary Prediction App", layout="wide", page_icon="💼")
 
 # Style
 st.markdown("""
