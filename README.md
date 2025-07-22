@@ -6,12 +6,8 @@ This project predicts whether an individual earns **more than $50K per year** ba
 
 ## 🧠 Problem Statement
 
-The objective is to classify employees into two salary classes:
+In today’s data-driven world, organizations and governments face challenges in identifying individuals with high earning potential based on limited demographic and professional information. There is a growing need for intelligent systems that can analyze factors like education, age, work hours, occupation, and more, to predict income brackets accurately. This project aims to build a machine learning model that predicts whether an individual earns more than $50,000 annually. By solving this problem, companies can make better hiring decisions, governments can understand economic patterns, and data science learners can gain practical experience. The motive behind choosing this project is to address real-world socio-economic challenges while applying predictive analytics and deploying the model through an interactive Streamlit web application.
 
-- **`<=50K`**
-- **`>50K`**
-
-using a dataset containing attributes such as age, education, occupation, working hours, and more. This helps in understanding patterns behind salary distribution and can support data-driven HR decisions.
 
 ---
 
